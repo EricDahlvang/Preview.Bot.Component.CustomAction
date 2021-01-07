@@ -2,6 +2,8 @@
 Adaptive CallCustomCodeAction packaged with IHostingStartup
 
 
+See also: ASPNETCORE_PREVENTHOSTINGSTARTUP  
+
 ```csharp
 [assembly: HostingStartup(typeof(Preview.Bot.Component.CustomAction.CallCustomActionHostingStartup))]
 
@@ -18,3 +20,5 @@ namespace Preview.Bot.Component.CustomAction
     }
 }
 ```
+See:
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/platform-specific-configuration
