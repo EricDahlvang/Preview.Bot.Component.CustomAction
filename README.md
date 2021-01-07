@@ -2,7 +2,8 @@
 Adaptive CallCustomCodeAction packaged with IHostingStartup
 
 
-See also: ASPNETCORE_PREVENTHOSTINGSTARTUP  
+See also: [Specify the hosting startup assembly](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/platform-specific-configuration?view=aspnetcore-5.0#specify-the-hosting-startup-assembly)
+
 
 ```csharp
 [assembly: HostingStartup(typeof(Preview.Bot.Component.CustomAction.CallCustomActionHostingStartup))]
